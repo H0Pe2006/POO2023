@@ -4,11 +4,11 @@ Elabore uma classe que receba 5 notas de alunos por meio de showInputDialog, arm
 
 IFPR - Campus Cascavel
 
-Aluno: Gabriel Costa de Moraes
+Aluno: Luiz Felipe Salbego Esperança
 
 Turma: 3° INF 2023
 
-Disciplina: Programação orientada a Objetos Professor: Nelson Bellincanta
+Disciplina: Programação orientada a Objetos - Nelson Bellincanta
 
 ```
 import javax.swing.JOptionPane;
