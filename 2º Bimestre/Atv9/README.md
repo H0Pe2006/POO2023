@@ -25,52 +25,47 @@ Turma: 3° INF 2023
 
 ```
 
-public class ExercicioSemRetorno{// Declaração da classe ExercicioSemRetorno
-     // Início da classe Main 
-    // Declaracao do método main que inicia a execução do programa 
-    
-    public static void main(String[] args) {
-        //declaração, alocação e inicializacao do vetor "vetor" 
-        int[] vetor = {123, 32, 1, 5, 7, 4, 86, 1, 3, 10};
+public class ExercicioSemRetorno{ // Declara a classe "ExercicioSemRetorno"
+   
+   // Inicialização da classe Main 
+   public static void main(String[] args) { // Declara o método main que inicia o programa 
+  
+       int[] v1 = {5, 10, 15, 20, 25, 30, 35, 40, 45, 50}; //declara, aloca e inicializa o array "v1" 
 
-        //chamando o metodo imprimirNumeros para printar o array 
-        imprimirNumeros(vetor);
+       imprimirN(v1); //chama o metodo imprimirN para printar o array "v1" 
 
-        //declaração, alocação e inicializacao do vetor "vetor2" 
-        int[] vetor2 = {32, 23, 12, 54, 2, 3, 1, 2, 3, 0};
+       int[] v2 = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}; //declara, aloca e inicializa o array "v2" 
 
-        //chamando o metodo somaNumeros para somar os dois vetores 
-        somaNumeros(vetor, vetor2);
-        
-    } // fim do metodo main
-    
-    // Declaração do método imprimirNumeros que recebe um array de inteiros e imprime os números
-    public static void imprimirNumeros(int[] array) {
-        System.out.println("Saida do Vetor: ");
-        //estrutura de repetição for que percorre o o vetor de parametro e faz um print de cada posição
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + "\t");
-        }
-        //print para quebra de linha
-        System.out.println();
-    } // fim do imprimirNumeros
+      
+       somaN(v1, v2); //chama o metodo somaN para executar a soma dos dois arrays 
+       
+   } // fim do método main
+   
+   public static void imprimirN(int[] a1) { // Declara o método imprimirN que recebe um array de inteiros e imprime os números
+       System.out.println("Saida do Vetor: ");
+       for (int i = 0; i < a1.length; i++) { //Executa um 'for' que percorre o array "a1" e faz um print de cada posição
+           System.out.print(a1[i] + "\t");
+       }
+       //print para a quebra de linha
+       System.out.println();
+   } // fim do método imprimirN
 
-    //declaracao do método imprimirNumeros que faz a soma de dois array como parametro 
-    public static void somaNumeros (int[] array, int[] array2) {
-        //declaração e alocação do vetor "arraysoma" com o tamanho do vetor "vetor"
-        int[] arraySoma = new int[array.length];
+   public static void somaN(int[] a1, int[] a2) { //declara o método imprimirN que faz a soma dos arrays "a1" e "a2"
 
-        //estrutura de repetição que realiza a soma dos array e atribui o valor para outro arrray
-        for (int i = 0; i < array.length; i++) {
-            arraySoma[i] = array[i] + array2[i];
-        }
+       int[] Soma = new int[a1.length]; //declara e aloca o vetor "Soma" com o tamanho do array "a1"
 
-        //prints de orientação
-        System.out.println();
-        System.out.println("Saida do vetor somado");
-        //chamando o metodo imprimirNumeros para printar a soma dos array
-        imprimirNumeros(arraySoma);
-    } // fim do metodo somaNumeros
+ 
+       for (int i = 0; i < a1.length; i++) {//Executa um 'For' que realiza a soma dos arrays "a1" e "a2" e atribui o valor para o array "Soma"
+           Soma[i] = a1[i] + a2[i];
+       }
+
+       //prints para a orientação
+       System.out.println("\n");
+       System.out.println("Executando a soma...");
+       System.out.println("\n");
+
+       imprimirN(Soma); //chama o metodo imprimirN para mostrar a soma dos arrays
+   } // fim do método somaN
 
 }// fim da classe ExercicioSemRetorno
 
