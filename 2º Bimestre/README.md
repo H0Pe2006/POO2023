@@ -1,5 +1,5 @@
 ## Atividades do 2° Bimestre - POO
 ### Aluno:
-* Luiz Felipe S.E
+* Luiz Felipe Salbego Esperança
 ### Curso:
 * 3°INF
