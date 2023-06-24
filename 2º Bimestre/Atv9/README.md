@@ -1,4 +1,4 @@
-## Atividades do 1° Bimestre - POO
+## Atividades do 2° Bimestre - POO
 ### Aluno:
 * Luiz Felipe S.E
 ### Curso:
