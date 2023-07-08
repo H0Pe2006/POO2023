@@ -6,7 +6,7 @@ public class pessoas { // classe publica "pessoas"
     private double alt;
 
     // pega o nome
-    public String getNome(){
+    public String getNom(){
         return name;
     }
 
