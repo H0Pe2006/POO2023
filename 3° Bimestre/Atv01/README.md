@@ -1,4 +1,4 @@
-*Atv 01 - 3º Bim*
+# Atv 01 - 3º Bim
 
 Suponha que temos os seguintes tipos de animais:
 
