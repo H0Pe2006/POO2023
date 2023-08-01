@@ -6,7 +6,7 @@ public class Mamiferos{
     //inteiro privado "age"
     private int age; 
 
-    //cria a classe
+    //criador
     public Mamiferos(String name, int idad){
         this.nom = name;
         this.age = idad;
