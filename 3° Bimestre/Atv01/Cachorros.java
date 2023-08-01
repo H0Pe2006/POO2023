@@ -1,3 +1,4 @@
+//Subclasse publica da classe "Mamiferos" chamada "Cachorros"
 public class Cachorros extends Mamiferos{
     private String raca; //string privada "raca"
 
