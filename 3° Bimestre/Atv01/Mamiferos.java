@@ -1,10 +1,9 @@
-
 public class Mamiferos{
   
-    //string "nom"
+    //string privada "nom"
     private String nom;
 
-    //int "age"
+    //inteiro privado "age"
     private int age; 
 
     //cria a classe
@@ -31,10 +30,12 @@ public class Mamiferos{
         return this.age;
     }
 
+    //printa a ação de "fazer som" do animal
     public void emitirSom(){
         System.out.println("Fazendo som...");
     }
 
+    //printa a ação de "se mover" do animal
     public void mover(){
         System.out.println("Movendo...");
     }
